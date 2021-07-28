@@ -1,16 +1,35 @@
-# covid19
+# COVID-19 APP
+**Aplicativo de Estatísticas do COVID-19 por País**
 
-A new Flutter project.
+### Sobre o projeto
+O projeto se define em um aplicativo com retrocompatibilidade para as atuais versões do Android e IOS, o qual apresenta em um gráfico e estatística os dados relacionados ao COVID-19 em cada país do mundo.
 
-## Getting Started
+### Plataformas
+- Android
+- IOS
 
-This project is a starting point for a Flutter application.
+### Linguagens utilizadas
+- Flutter/Dart
 
-A few resources to get you started if this is your first Flutter project:
+### Dependências utilizadas
+- cupertino_icons: ^1.0.2
+- intl: ^0.17.0
+- fl_chart: ^0.36.1
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Instalação
+```bash
+git clone https://github.com/Teloschet/covid19-app.git covid19
+cd covid19
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### API usada no APP
+```bash
+https://covid-api.mmediagroup.fr/v1/cases
+```
+
+#### That's all. Enjoy.
+
+### Change log
+#### v 1.0.0
