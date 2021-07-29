@@ -15,6 +15,7 @@ O projeto se define em um aplicativo com retrocompatibilidade para as atuais ver
 - cupertino_icons: ^1.0.2
 - intl: ^0.17.0
 - fl_chart: ^0.36.1
+- http: ^0.13.2
 
 ### Instalação
 ```bash
